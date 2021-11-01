@@ -7,7 +7,7 @@
  */
 import java.io.*;
 import java.util.*;
-public class Scrabble
+public class Main
 {
     /**
      * Counts the number of lines for the given file
@@ -35,7 +35,17 @@ public class Scrabble
     /*
      * Gets a String from user via keyboard representing the Scrabble tiles
      * The String has to be all lowercase and needs to have 7 letters
+     * Steps to compare:
+     * 1. input's length is 7
+     * 2. input is in lowercase
+     * 3. input is in range a-z
+     * NOTE: do not use a loop to retake new input from user
      */
+        // outputs for this method
+        // System.out.println("Enter your tiles: ");
+        // System.out.println("Input has " + 0 + " characters, need 7"); // need to replace 0 with actual input's length
+        // System.out.println("Input needs to be all lowercase: " + input); // variable input is the input from user
+        // System.out.println("Need characters a-z, not: " + input); // variable input is the input from user
     public static String getUserTiles()
     {
         // to be completed -- input from keyboard
