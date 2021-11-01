@@ -9,6 +9,7 @@ import java.io.*;
 import java.util.*;
 public class Main
 {
+    public static String wordFile = "anotherlist.txt"; // change to your txt filename
     /**
      * Counts the number of lines for the given file
      */
