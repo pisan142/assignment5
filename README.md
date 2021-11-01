@@ -1,4 +1,5 @@
 # Assignment 5 
+## You can change/add/delete text files, but unit test only tests using the initial text files (smalllist.txt and biglist.txt). It doesn't use your text files.
 <br>
 <!--
 ## Steps to download and work on the assignment
